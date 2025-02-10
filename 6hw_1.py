@@ -1,5 +1,6 @@
 import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain.prompts import PromptTemplate
 import os
 
 # 페이지 기본 설정
